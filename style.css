@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.backnav{
+    height: 64px;
+    background-color: black;
+    color: white;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.navleft{
+    height: 40px;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 13px;
+    margin-left: 43px;
+}
+.logo{
+     font-family: system-ui;
+     font-size: 24px;
+     padding-left: 10px;
+     padding-right: 14px;
+}
+.same{
+    font-family: system-ui;
+     font-size: 14px;
+     font-weight: 550;
+     padding-left:14px;
+}
+.navright{
+    height: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 13px;
+    margin-left: 370px;
+}
+.same2{
+    font-family: system-ui;
+     font-size: 14px;
+     font-weight: 550;
+     padding-left:14px;
+}
+.signn{
+     border-radius: 22px;
+     width: 74px;
+     height: 38px;
+     color: black;
+}
+.signn:hover{
+    color: white;
+    background-color: black;
+    transition:all,1s,ease-in,1s;
+}
+#globe{
+    padding-right: 7.5px;
+}
+.secondsec{
+    height: 810px;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.right1{
+    background-image: url("Ride-with-Uber.webp");
+    background-size: cover;
+    width: 570px;
+    height: 693px;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.left1{
+    height: 400px;
+    width: 500px;
+    margin-top: 210px;
+    margin-left: 75px;
+}
+.heading{
+    font-size: 49px;
+    color: white;
+    font-family: system-ui;
+    height: 130px;
+    width: 452px;
+    font-weight: 700;
+}
+.text{
+    width: 454px;
+    height: 24px;
+    font-size: 15px;
+    text-align: left;
+    font-family: system-ui;
+    margin-top: 25px;
+}
+.input1{
+    margin-top: 10px;
+}
+#location{
+    height: 44px ;
+    width: 390px ;
+    font-size: 17px;
+    border-radius: 10px;
+    padding-left: 40px;
+}
+.inputend{
+    margin-top: 22px;
+    color: black;
+}
+#price{
+    height: 46px ;
+    width: 128px ;
+    font-size: 17px;
+    border-radius: 10px;
+    padding-left: 17px;
+   
+}
+.suggest{
+    height: 44px;
+    margin-top: 55px;
+    margin-left: 65px;
+}
+#txt1{
+    font-size: 33px;
+    color: black;
+    font-family: system-ui;
+    font-weight: 750;
+    letter-spacing: 0.7px;
+}
+.parent{
+    height: 178px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 45px;
+    margin-left: 37px;
+    margin-right: 37px;
+}
+.child1{
+    height: 160px;
+    width: 30%;
+    display: flex;
+    background-color: #edf0f5;
+    border-radius: 12px;
+}
+.imgr{
+    background-image: url("ride.png");
+    height: 128px;
+    width: 128px;
+    background-size: cover;
+}
+.para{
+    height: 112px;
+    width: 207px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.txtheading{
+    font-size: 16px;
+    color: black;
+    font-family: system-ui;
+    font-weight: 500;
+}
+.xx{
+    font-size: 12px;
+    color: black;
+    font-family: system-ui;
+}
+#detail{
+    width:69px ;
+    height:32px ;
+    border-radius:14px ;
+    border: none;
+    background-color: white;
+}
+.child2{
+    height: 160px;
+    width: 30%;
+    display: flex;
+    background-color: #edf0f5;
+    border-radius: 12px;
+}
+.imgre{
+    background-image: url("reserve_clock.png");
+    height: 128px;
+    width: 128px;
+    background-size: cover;
+}
+.child3{
+    height: 160px;
+    width: 30%;
+    display: flex;
+    background-color: #edf0f5;
+    border-radius: 12px;
+}
+.imgc{
+    background-image: url("connect.png");
+    height: 128px;
+    width: 128px;
+    background-size: cover;
+}
+.sui{
+    height: 570px;
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.imgxy{
+    background-image: url("earner-illustra.webp");
+    background-size: cover;
+    height: 550px;
+    width: 570px;
+  
+}
+.write{
+    height: 400px;
+    width: 450px;
+    margin-top: 130px;
+    margin-left: 65px;
+}
+.large{
+    font-size:52px;
+    font-family: system-ui;
+    font-weight: 700 ;
+    line-height: 4rem ;
+    color: black;
+}
+.small{
+    font-size:16px;
+    font-family: system-ui;
+    color: black;
+    line-height: 1.45rem ;
+    letter-spacing: 0.4px;
+    padding-top: 34px;
+}
+.gets{
+    height: 48px ;
+    width: 135px;
+    color: white;
+    background-color: black;
+    border-radius: 12px;
+    font-size: 16px;
+   margin-top: 27px;
+}
+.imgxyz{
+    background-image: url("u4b-square.webp");
+    background-size: cover;
+    height: 550px;
+    width: 570px;
+}
+.qrcode{
+    height: 406px;
+    display: flex;
+    justify-content: space-evenly;
+    border-color: lightgray;
+}
+.qrx{
+    height: 198px;
+    width: 550px;
+    display: flex;
+    margin-left: 95px;
+}
+.easy{
+    color: black;
+    font-family: system-ui;
+    font-size: 36px;
+    padding-top:70px ;
+    padding-left: 100px;
+    font-weight: 700;
+    padding-bottom: 80px;
+}
+.bar{
+   background-image: url("bar1.webp");
+   height: 150px;
+   width: 150px;
+   background-size: cover;
+}
+.text{
+    height: 32px;
+    width: 282px;
+    font-size: 24px;
+    color: black;
+    font-family: system-ui;
+    font-weight: 550;
+    margin-left: 180px;
+    margin-top: 50px;
+}
+.textn{
+    height: 24px;
+    width: 262px;
+    font-size: 16px;
+    color: black;
+    font-family: system-ui;
+    margin-left: 180px;
+}
+.footpanel1{
+    height: 213px;
+    background-color: black;
+    color: white;
+}
+.logof{
+    font-family: system-ui;
+    font-size: 24px;
+    padding-left: 70px;
+    padding-top: 110px;
+}
+.help{
+    font-family: system-ui;
+    font-size: 16px;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+.footpanel2{
+    height: 380px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.company{
+    height: 300px;
+    width: 20%;
+    background-color: black;
+    color: white;
+    line-height: 2.7rem;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+.cap{
+    font-size: 18px ;
+    font-family: system-ui;
+    font-weight: 500 ;
+}
+.sme{
+    font-size:14px ;
+    font-family: system-ui;
+}
+.footpanel3{
+    color: white;
+    background-color: black;
+    height: 100px;
+    display: flex;
+}
+.social{
+    height: 80px;
+    width: 610px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.langs{
+    height: 80px;
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 320px;
+}
+.english{
+    height: 80px;
+    display: flex;
+}
+.eng{
+    font-size: 14px;
+    font-family: system-ui;
+}
+.footpanel4{
+    height: 80px;
+    background-color: black;
+    color: #AFAFAF;
+    display: flex;
+}
+.items{
+    height: 80px;
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 910px;
+  
+}
+.bla{
+    font-size: 12px;
+    font-family: system-ui;
+}
